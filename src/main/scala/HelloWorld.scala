@@ -9,7 +9,7 @@ object HelloWorld {
         .builder
         .appName("Hello Spark App")
         //.master("local")
-//        .config("spark.master", "local")
+        //.config("spark.master", "local")
         .config("spark.eventLog.enabled", false)
         .getOrCreate()
 
