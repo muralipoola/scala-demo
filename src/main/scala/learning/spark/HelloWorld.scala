@@ -1,4 +1,4 @@
-package scalademo
+package learning.spark
 
 import org.apache.spark.sql.SparkSession
 
